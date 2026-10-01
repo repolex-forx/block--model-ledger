@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/block/model-ledger/commit/93be51a248ec70c3f8bd5cf21214ef330822147c",
       "git:hexsha": "93be51a248ec70c3f8bd5cf21214ef330822147c",
-      "repolex:parseStatus": "metadata_complete",
+      "repolex:parseStatus": "ast_complete",
       "git:tagName": "v0.7.13"
     },
     {
