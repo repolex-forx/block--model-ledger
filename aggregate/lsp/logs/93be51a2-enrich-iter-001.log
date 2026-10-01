@@ -1,0 +1,28 @@
+[2026-10-01T08:20:34Z] === ENRICH ITERATION 1 START | repo=block/model-ledger sha=93be51a2 ===
+[2026-10-01T08:20:34Z] [iter=1] PHASE START: enrich repo=block/model-ledger sha=93be51a2 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/93be51a2-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/93be51a248ec70c3f8bd5cf21214ef330822147c.nq.gz
+[2026-10-01T08:21:08Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=80 MB
+[2026-10-01T08:21:17Z] [iter=1] AST store loaded triples=1000297 load_secs=8 mem_mb=911 MB
+[2026-10-01T08:21:17Z] [iter=1] Step 2: Finding LSP targets mem_mb=911 MB
+[2026-10-01T08:21:18Z] [iter=1] LSP targets found call_sites=6132 imports=647 extends=78 implements=0 secs=2
+[2026-10-01T08:21:19Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=911 MB
+[2026-10-01T08:21:23Z] [iter=1] Position index built positions=69932 nodes_with_types=90455 secs=3 mem_mb=911 MB
+[2026-10-01T08:21:23Z] [iter=1] Step 3: Starting LSP resolution mem_mb=911 MB already_completed_types=[] already_completed_files=0
+[2026-10-01T08:21:23Z] [iter=1] Resolving target type target_type=call_site count=6132
+[2026-10-01T08:21:23Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.8 files_done=0 resolved=0 errors=0 current=src/model_ledger/export/audit_pack.py
+[2026-10-01T08:22:27Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.9 files_done=7 resolved=310 errors=229 current=tests/test_introspect/test_lightgbm.py
+[2026-10-01T08:23:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.4 files_done=17 resolved=414 errors=327 current=tests/test_tools/test_schemas.py
+[2026-10-01T08:23:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.2 files_done=24 resolved=815 errors=492 current=tests/test_backends/test_json_files.py
+[2026-10-01T08:24:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.7 files_done=35 resolved=1057 errors=591 current=tests/test_backends/test_http_ledger_integration.py
+[2026-10-01T08:24:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.2 files_done=45 resolved=1196 errors=696 current=src/model_ledger/rest/app.py
+[2026-10-01T08:25:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.8 files_done=60 resolved=1381 errors=817 current=src/model_ledger/datasets/samples.py
+[2026-10-01T08:26:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.4 files_done=64 resolved=1526 errors=961 current=src/model_ledger/tools/changelog.py
+[2026-10-01T08:26:33Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.0 files_done=73 resolved=1702 errors=1086 current=src/model_ledger/validate/profiles/eu_ai_act.py
+[2026-10-01T08:27:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.5 files_done=92 resolved=1933 errors=1209 current=tests/test_core/test_models.py
+[2026-10-01T08:27:25Z] [iter=1] Target type resolved target_type=call_site resolved=2047 errors=1256 secs=362 mem_mb=911 MB
+[2026-10-01T08:27:25Z] [iter=1] Resolving target type target_type=import_statement count=647
+[2026-10-01T08:27:28Z] [iter=1] Target type resolved target_type=import_statement resolved=374 errors=0 secs=3 mem_mb=911 MB
+[2026-10-01T08:27:28Z] [iter=1] Resolving target type target_type=extends_clause count=78
+[2026-10-01T08:27:29Z] [iter=1] Target type resolved target_type=extends_clause resolved=74 errors=0 secs=1 mem_mb=911 MB
+[2026-10-01T08:27:35Z] [iter=1] Step 5: Writing final enrichment file triples=48355
+[2026-10-01T08:27:36Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/93be51a248ec70c3f8bd5cf21214ef330822147c.nq.gz size_kb=1071
+[2026-10-01T08:27:36Z] [iter=1] PHASE END: enrich elapsed_s=422 elapsed_min=7.0 total_triples=48355

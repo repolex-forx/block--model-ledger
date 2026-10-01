@@ -200,6 +200,200 @@
       ],
       "ast": [
         "aggregate/ast/93be51a248ec70c3f8bd5cf21214ef330822147c/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/93be51a248ec70c3f8bd5cf21214ef330822147c.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "httpx",
+          "ecosystem": "PYPI",
+          "version": "0.28.1",
+          "githubOrg": "encode",
+          "githubRepo": "httpx",
+          "githubCommit": "26d48e0634e6ee9cdc0533996db289ce4b430177",
+          "githubTag": "0.28.1",
+          "githubUrl": "https://github.com/encode/httpx",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pydantic",
+          "ecosystem": "PYPI",
+          "version": "2.0",
+          "githubOrg": "pydantic",
+          "githubRepo": "pydantic",
+          "githubCommit": "aeb8fd0255bf034212e808b92893283adc9f8d3a",
+          "githubTag": "v2.0",
+          "githubUrl": "https://github.com/pydantic/pydantic",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "typer",
+          "ecosystem": "PYPI",
+          "version": "0.9",
+          "githubOrg": "fastapi",
+          "githubRepo": "typer",
+          "githubUrl": "https://github.com/fastapi/typer",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "rich",
+          "ecosystem": "PYPI",
+          "version": "13.0",
+          "githubOrg": "Textualize",
+          "githubRepo": "rich",
+          "githubUrl": "https://github.com/Textualize/rich",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "scikit-learn",
+          "ecosystem": "PYPI",
+          "version": "1.0",
+          "githubOrg": "scikit-learn",
+          "githubRepo": "scikit-learn",
+          "githubCommit": "9b033758ec681e8fd7433a8bb35d9777acd4f8ba",
+          "githubTag": "1.0",
+          "githubUrl": "https://github.com/scikit-learn/scikit-learn",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "xgboost",
+          "ecosystem": "PYPI",
+          "version": "1.7",
+          "githubOrg": "dmlc",
+          "githubRepo": "xgboost",
+          "githubUrl": "https://github.com/dmlc/xgboost",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "lightgbm",
+          "ecosystem": "PYPI",
+          "version": "3.0",
+          "githubOrg": "lightgbm-org",
+          "githubRepo": "LightGBM",
+          "githubUrl": "https://github.com/lightgbm-org/LightGBM",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pytest",
+          "ecosystem": "PYPI",
+          "version": "8.0",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest",
+          "githubUrl": "https://github.com/pytest-dev/pytest",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pytest-cov",
+          "ecosystem": "PYPI",
+          "version": "5.0",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest-cov",
+          "githubUrl": "https://github.com/pytest-dev/pytest-cov",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "hypothesis",
+          "ecosystem": "PYPI",
+          "version": "6.0",
+          "githubOrg": "HypothesisWorks",
+          "githubRepo": "hypothesis",
+          "githubUrl": "https://github.com/HypothesisWorks/hypothesis",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "ruff",
+          "ecosystem": "PYPI",
+          "version": "0.8",
+          "githubOrg": "astral-sh",
+          "githubRepo": "ruff",
+          "githubUrl": "https://github.com/astral-sh/ruff",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "mypy",
+          "ecosystem": "PYPI",
+          "version": "1.0",
+          "githubOrg": "python",
+          "githubRepo": "mypy",
+          "githubUrl": "https://github.com/python/mypy",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "snowflake-connector-python",
+          "ecosystem": "PYPI",
+          "version": "3.0",
+          "githubOrg": "snowflakedb",
+          "githubRepo": "snowflake-connector-python",
+          "githubUrl": "https://github.com/snowflakedb/snowflake-connector-python",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pandas",
+          "ecosystem": "PYPI",
+          "version": "2.0",
+          "githubOrg": "pandas-dev",
+          "githubRepo": "pandas",
+          "githubUrl": "https://github.com/pandas-dev/pandas",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "mkdocs-material",
+          "ecosystem": "PYPI",
+          "version": "9.5",
+          "githubOrg": "squidfunk",
+          "githubRepo": "mkdocs-material",
+          "githubUrl": "https://github.com/squidfunk/mkdocs-material",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "mkdocstrings",
+          "ecosystem": "PYPI",
+          "version": "0.26",
+          "githubOrg": "mkdocstrings",
+          "githubRepo": "mkdocstrings",
+          "githubUrl": "https://github.com/mkdocstrings/mkdocstrings",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "mcp",
+          "ecosystem": "PYPI",
+          "version": "1.7.1",
+          "githubOrg": "modelcontextprotocol",
+          "githubRepo": "python-sdk",
+          "githubCommit": "ba04a0fc3d8e7cbe5d54f4991ff827358757e576",
+          "githubTag": "v1.7.1",
+          "githubUrl": "https://github.com/modelcontextprotocol/python-sdk",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "fastapi",
+          "ecosystem": "PYPI",
+          "version": "0.115",
+          "githubOrg": "fastapi",
+          "githubRepo": "fastapi",
+          "githubUrl": "https://github.com/fastapi/fastapi",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "uvicorn",
+          "ecosystem": "PYPI",
+          "version": "0.30",
+          "githubOrg": "sponsors",
+          "githubRepo": "Kludex",
+          "githubUrl": "https://github.com/sponsors/Kludex",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "numpy",
+          "ecosystem": "PYPI",
+          "version": "2.5.3",
+          "githubOrg": "numpy",
+          "githubRepo": "numpy",
+          "githubCommit": "dd88c0c19b54ad9ed3533224221285bf0873249a",
+          "githubTag": "v2.5.3",
+          "githubUrl": "https://github.com/numpy/numpy",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.14/site-packages/numpy/__init__.py"
+        }
       ]
     }
   ],
