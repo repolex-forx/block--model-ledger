@@ -1,0 +1,6 @@
+[2026-10-02T10:51:59Z] === AST ITERATION 2 START | repo=block/model-ledger sha=93be51a2 ===
+[2026-10-02T10:51:59Z] [iter=2] PHASE START: ast repo=block/model-ledger sha=93be51a2
+[2026-10-02T10:51:59Z] [iter=2] AST SKIPPED — chunks already exist count=1 dir=/home/runner/work/forx/forx/storage/aggregate/ast/93be51a248ec70c3f8bd5cf21214ef330822147c
+[2026-10-02T10:51:59Z] [iter=2] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/93be51a248ec70c3f8bd5cf21214ef330822147c/.complete
+[2026-10-02T10:51:59Z] [iter=2] PHASE END: ast elapsed_s=0 elapsed_min=0.0
+[2026-10-02T10:51:59Z] [iter=2] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
